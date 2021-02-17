@@ -1,6 +1,37 @@
 version: "2.0"
 
 nlu:
+
+- intent: appointment
+  examples: |
+    - appointment
+    - create an appointment
+    - make appointment
+    - i have a date
+    - i have a meeting
+    - book meeting
+    - date
+
+- intent: todo_item
+  examples: |
+    - todo
+    - create a todo item
+    - add todo
+    - put this to the list
+    - add an item
+    - write todo
+    - i have things to do
+
+- intent: timer
+  examples: |
+    - timer
+    - countdown
+    - set a timer
+    - time this
+    - create timer
+    - start a countdown
+    - create countdown
+
 - intent: greet
   examples: |
     - hey
