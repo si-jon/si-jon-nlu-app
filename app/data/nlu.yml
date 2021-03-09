@@ -22,6 +22,7 @@ nlu:
     - write todo
     - i have things to do
 
+
 - intent: timer
   examples: |
     - timer
@@ -31,6 +32,27 @@ nlu:
     - create timer
     - start a countdown
     - create countdown
+
+
+- intent: change_colour
+  examples: |
+    - colour
+    - color
+    - change colour
+    - change color
+    - colour changer
+    - color changer
+
+
+- intent: smart_home
+  examples: |
+    - smart home
+    - go to smart home
+    - enter smart home
+    - smart home action
+    - smart action
+    - home action
+
 
 - intent: greet
   examples: |
